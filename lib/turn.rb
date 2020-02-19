@@ -14,7 +14,7 @@ def position_taken? board, index
 end
 def valid_move? board, index
   if index < 9
-    position_taken? board, index
+    !position_taken? board, index
   end
 end
 def input_to_index input
