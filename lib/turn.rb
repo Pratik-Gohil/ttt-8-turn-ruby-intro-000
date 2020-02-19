@@ -17,3 +17,6 @@ def valid_move? board, index
     position_taken? board, index
   end
 end
+def move board, index, char
+  
+end
